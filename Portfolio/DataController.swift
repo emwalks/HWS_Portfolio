@@ -13,6 +13,8 @@ class DataController: ObservableObject {
     //  is responsible for loading and managing local data using Core Data, but also synchronizing that data with iCloud so that all a user’s devices get to share the same data for our app.
     let container: NSPersistentCloudKitContainer
     
+    @Published var selectedFilter: Filter? = Filter.all
+    
     // Set up SwiftUI preview with core data - hit and miss if it works!
     static var preview: DataController = {
         let dataController = DataController(inMemory: true)

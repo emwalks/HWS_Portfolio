@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct SidebarView: View {
+    
+    @EnvironmentObject var dataController: DataController
+    let smartFilters: [Filter] = [.all, .recent]
+    
     var body: some View {
-        Text("Sidebar")
+        List(selection: $dataController.selectedFilter) {
+            Section("Smart Filters") {
+                ForEach(smartFilters) { filter in
+                    NavigationLink(value: filter) {
+                        Label(filter.name, systemImage: filter.icon)
+                    }
+                }
+            }
+        }
     }
 }
 
