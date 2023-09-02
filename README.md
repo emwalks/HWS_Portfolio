@@ -7,13 +7,17 @@
 Xcode 14.2 iOS 16
 
 - CoreData
-- CloudKit
+- CloudKit (not set up yet) https://www.hackingwithswift.com/plus/ultimate-portfolio-app/designing-a-great-model
 
 ## Core Data
 
 Once we’ve configured our Core Data container, we can load it by calling loadPersistentStores(). This will load the actual underlying database on disk, or create it if it doesn’t already exist, but if that fails somehow we don’t really have any choice but to bail out – something is very seriously wrong!
 
 Because we defined entities called `Resource` and `Tag`, Xcode will automatically synthesize classes called Issue and Tag for us to use, with properties matching all the attributes we defined. Even better, when you create instances of these classes using our Core Data stack, they can be loaded and saved almost automatically – it’s a massive time saver.
+
+Core Data support and syncing with iCloud hit and miss on simulators - best tested on real devices.
+
+In Xcode you need to add the capability to access iCloud
 
 ## CloudKit
 
