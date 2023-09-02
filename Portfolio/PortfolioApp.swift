@@ -2,7 +2,7 @@
 //  PortfolioApp.swift
 //  Portfolio
 //
-//  Created by Emma Walker - TVandMobile Platforms - Core Engineering on 02/09/2023.
+//  Created by Emma Walker on 02/09/2023.
 //
 
 import SwiftUI
