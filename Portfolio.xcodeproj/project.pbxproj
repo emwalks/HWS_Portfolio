@@ -13,6 +13,8 @@
 		986833C32AA347B100DA1446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986833C22AA347B100DA1446 /* Preview Assets.xcassets */; };
 		986833CB2AA34B2900DA1446 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 986833C92AA34B2900DA1446 /* Main.xcdatamodeld */; };
 		986833CD2AA34EB200DA1446 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986833CC2AA34EB200DA1446 /* DataController.swift */; };
+		986833D02AA35E4F00DA1446 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986833CF2AA35E4F00DA1446 /* SidebarView.swift */; };
+		986833D22AA35E5B00DA1446 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986833D12AA35E5B00DA1446 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		986833CA2AA34B2900DA1446 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		986833CC2AA34EB200DA1446 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		986833CE2AA35D4A00DA1446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		986833CF2AA35E4F00DA1446 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		986833D12AA35E5B00DA1446 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				986833C92AA34B2900DA1446 /* Main.xcdatamodeld */,
 				986833CC2AA34EB200DA1446 /* DataController.swift */,
 				986833BC2AA347AF00DA1446 /* ContentView.swift */,
+				986833CF2AA35E4F00DA1446 /* SidebarView.swift */,
+				986833D12AA35E5B00DA1446 /* DetailView.swift */,
 				986833BE2AA347B100DA1446 /* Assets.xcassets */,
 				986833C02AA347B100DA1446 /* Portfolio.entitlements */,
 				986833C12AA347B100DA1446 /* Preview Content */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				986833CB2AA34B2900DA1446 /* Main.xcdatamodeld in Sources */,
+				986833D22AA35E5B00DA1446 /* DetailView.swift in Sources */,
 				986833CD2AA34EB200DA1446 /* DataController.swift in Sources */,
+				986833D02AA35E4F00DA1446 /* SidebarView.swift in Sources */,
 				986833BD2AA347AF00DA1446 /* ContentView.swift in Sources */,
 				986833BB2AA347AF00DA1446 /* PortfolioApp.swift in Sources */,
 			);
